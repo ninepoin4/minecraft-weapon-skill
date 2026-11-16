@@ -1,0 +1,153 @@
+{
+  "steel": {
+    "deep": "#141821",
+    "shadow": "#38414F",
+    "base": "#6B7789",
+    "light": "#AEB9C8",
+    "highlight": "#EAF1FA"
+  },
+  "deepslate": {
+    "deep": "#14161C",
+    "shadow": "#2A2E38",
+    "base": "#4A505E",
+    "light": "#7A8294",
+    "highlight": "#B8C0D0"
+  },
+  "emerald": {
+    "deep": "#0B3D24",
+    "shadow": "#126B3C",
+    "base": "#1E9B56",
+    "light": "#3FD07A",
+    "highlight": "#B4F5C8"
+  },
+  "echo": {
+    "deep": "#0A1A2A",
+    "shadow": "#12384A",
+    "base": "#1E6A7A",
+    "light": "#3FC0D0",
+    "highlight": "#B8FFFF"
+  },
+  "sculk": {
+    "deep": "#061412",
+    "shadow": "#0E2E2A",
+    "base": "#1A4A44",
+    "light": "#2E7A70",
+    "highlight": "#80C0B0"
+  },
+  "copper": {
+    "deep": "#3A1A0E",
+    "shadow": "#6B3218",
+    "base": "#B55A28",
+    "light": "#E08A4A",
+    "highlight": "#FFD0A0"
+  },
+  "redstone": {
+    "deep": "#3A0505",
+    "shadow": "#7A0A0A",
+    "base": "#C01818",
+    "light": "#FF4A4A",
+    "highlight": "#FFB0B0"
+  },
+  "honey": {
+    "deep": "#4A2A00",
+    "shadow": "#8A5A00",
+    "base": "#D99A00",
+    "light": "#FFC83D",
+    "highlight": "#FFF0A0"
+  },
+  "amber": {
+    "deep": "#5A2A00",
+    "shadow": "#9A4A00",
+    "base": "#E07A00",
+    "light": "#FFB020",
+    "highlight": "#FFE080"
+  },
+  "crystal": {
+    "deep": "#17123A",
+    "shadow": "#3B2E8C",
+    "base": "#6E5BFF",
+    "light": "#A7D8FF",
+    "highlight": "#F2FFFF"
+  },
+  "ender": {
+    "deep": "#12051F",
+    "shadow": "#2A0B4A",
+    "base": "#4A1E7A",
+    "light": "#8A4AD0",
+    "highlight": "#D0A0FF"
+  },
+  "amethyst": {
+    "deep": "#2A104A",
+    "shadow": "#4A2080",
+    "base": "#7A4AD0",
+    "light": "#B080FF",
+    "highlight": "#E8D0FF"
+  },
+  "magnetite": {
+    "deep": "#1A1414",
+    "shadow": "#3A2A28",
+    "base": "#6A4A44",
+    "light": "#A08078",
+    "highlight": "#D0B8B0"
+  },
+  "obsidian": {
+    "deep": "#08050E",
+    "shadow": "#221238",
+    "base": "#3E2358",
+    "light": "#6E4A9E",
+    "highlight": "#C7A6FF"
+  },
+  "tidal": {
+    "deep": "#062A3A",
+    "shadow": "#0B4A5A",
+    "base": "#1E7A8A",
+    "light": "#4AC0C8",
+    "highlight": "#B8F0F0"
+  },
+  "prismarine": {
+    "deep": "#0A3A2A",
+    "shadow": "#126A4A",
+    "base": "#2AA080",
+    "light": "#6AD0B0",
+    "highlight": "#C8FFE0"
+  },
+  "shell": {
+    "deep": "#5A3A2A",
+    "shadow": "#8A5A3A",
+    "base": "#D0A080",
+    "light": "#F0D0B0",
+    "highlight": "#FFF0E0"
+  },
+  "seaweed": {
+    "deep": "#1A2A10",
+    "shadow": "#2E4A1A",
+    "base": "#4A6A2A",
+    "light": "#7A9A4A",
+    "highlight": "#B0C080"
+  },
+  "blaze": {
+    "deep": "#3A0B00",
+    "shadow": "#8A2A00",
+    "base": "#D95A00",
+    "light": "#FFB020",
+    "highlight": "#FFF3B0"
+  },
+  "gold": {
+    "deep": "#4A3210",
+    "shadow": "#8A6418",
+    "base": "#C79A2E",
+    "light": "#F2D06B"
+  },
+  "wood": {
+    "deep": "#2B1A10",
+    "shadow": "#4A2E1A",
+    "base": "#6E4726",
+    "light": "#96663A"
+  },
+  "leather": {
+    "deep": "#1A100C",
+    "shadow": "#352019",
+    "base": "#553528",
+    "light": "#7C4E38"
+  }
+}
