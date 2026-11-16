@@ -1,0 +1,33 @@
+# Gradle
+.gradle/
+build/
+run/
+out/
+*.log
+
+# IDE
+.idea/
+*.iml
+.vscode/
+
+# Local dev-only jars (not referenced by build.gradle)
+libs/
+
+# Art experiments and generated previews
+art/skill_test/
+art/skill_draw/
+art/weapon_batch/
+art/template_previews/
+art/__pycache__/
+art/*.png
+art/*.gif
+art/*.json
+__pycache__/
+*.pyc
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Local vanilla reference textures (not redistributable)
+art/vanilla/

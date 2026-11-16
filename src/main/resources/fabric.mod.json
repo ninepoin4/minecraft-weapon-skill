@@ -1,0 +1,21 @@
+{
+    "schemaVersion": 1,
+    "id": "weapon",
+    "version": "${version}",
+    "name": "Weapon",
+    "description": "A growing collection of custom weapons. Starts with the venom rapier: fast iron-tier blade that poisons whatever it hits.",
+    "authors": ["opencode"],
+    "license": "MIT",
+    "icon": "assets/weapon/icon.png",
+    "environment": "*",
+    "entrypoints": {
+        "main": ["com.weapon.WeaponMod"],
+        "client": ["com.weapon.client.WeaponClient"]
+    },
+    "depends": {
+        "fabricloader": ">=0.16.0",
+        "minecraft": "~1.21.1",
+        "java": ">=21",
+        "fabric-api": "*"
+    }
+}
