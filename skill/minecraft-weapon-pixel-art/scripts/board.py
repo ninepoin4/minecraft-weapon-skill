@@ -25,7 +25,7 @@ PRIMARY_THEMES = [
     "honey", "amber", "crystal", "ender", "amethyst", "magnetite",
     "obsidian", "tidal", "prismarine", "shell", "seaweed", "blaze",
 ]
-TEMPLATE_NAMES = ["longsword", "crystal_saber", "war_axe", "knife", "spear"]
+TEMPLATE_NAMES = ["crystal_saber"]
 
 PREVIEW_SCALE = 8
 BG_MID = (110, 110, 110, 255)

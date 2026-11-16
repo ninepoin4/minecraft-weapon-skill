@@ -1,6 +1,6 @@
 {
   "name": "crystal_saber_template",
-  "note": "Proportion skeleton only. Customize the outline and paint your own materials; do not ship the raw template.",
+  "note": "Proportion skeleton only. Customize the outline and paint your own materials.",
   "default_primary": "crystal",
   "default_grip": "leather",
   "rows": [
