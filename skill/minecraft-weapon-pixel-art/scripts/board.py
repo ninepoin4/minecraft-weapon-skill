@@ -12,9 +12,19 @@ from __future__ import annotations
 
 import argparse
 import json
+import sys
 from pathlib import Path
 
-from PIL import Image, ImageDraw, ImageFont
+try:
+    from PIL import Image, ImageDraw, ImageFont
+except ImportError as exc:  # Pillow is a hard runtime dependency
+    raise SystemExit(
+        "board.py needs Pillow, but it is not importable.\n"
+        "Install it with:\n"
+        f"    {sys.executable} -m pip install -r "
+        f"{Path(__file__).resolve().parent.parent / 'requirements.txt'}\n"
+        f"(import error: {exc})"
+    ) from None
 
 SIZE = 32
 ROOT = Path(__file__).resolve().parent.parent
@@ -258,7 +268,8 @@ def validate(spec: dict, im: Image.Image, placeholder: set[tuple[int, int]]) -> 
     errors: list[str] = []
     warnings: list[str] = []
 
-    pixels = list(im.getdata())
+    px = im.load()
+    pixels = [px[x, y] for y in range(SIZE) for x in range(SIZE)]
     visible = [(i % SIZE, i // SIZE) for i, p in enumerate(pixels) if p[3] > 0]
     partial = sum(1 for p in pixels if 0 < p[3] < 255)
     if partial:

@@ -1,0 +1,4 @@
+# Runtime dependency for scripts/board.py
+#   python -m pip install -r requirements.txt
+# board.py uses Image.Resampling (Pillow 9.1+) and RGBA compositing.
+Pillow>=9.1
